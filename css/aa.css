@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.search{
+	height: 25vh;
+	background: #00a7ff;
+	margin-top: -6px;
+	padding-top: 15px;
+	
+}
+.img1{
+	margin-top: -5px;
+}
+.list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.list-child{
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 12vh;
+	
+}
+.list-child img{
+	width: 70%;
+}
+.list-child p{
+	font-size: 30px;
+	margin-top: 30px;
+	color: #666666;
+}
